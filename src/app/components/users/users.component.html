@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-12 col-md-3 sidebar bg-light">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="add-user" routerLinkActive="active">Agregar User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="list-users" routerLinkActive="active">Listar Users</a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Main content -->
+      <div class="col-12 col-md-9 content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  

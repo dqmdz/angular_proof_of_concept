@@ -1,0 +1,24 @@
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #495057;
+  }
+  
+  .btn-primary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a6268;
+  }
+  

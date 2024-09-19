@@ -1,0 +1,53 @@
+:host {
+    .sidebar {
+      height: 100vh;
+      padding-top: 20px;
+      border-right: 2px solid #dee2e6;
+      background-color: #f8f9fa; /* Gris muy claro para diferenciar del fondo blanco */
+    }
+    
+    .sidebar .nav-link {
+      color: #007bff !important; /* Azul para las opciones no seleccionadas, usando !important */
+      font-size: 1.1rem;
+      padding: 10px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .sidebar .nav-link:hover {
+      background-color: #e9ecef;
+      color: #0056b3 !important; /* Azul más oscuro al pasar el mouse, usando !important */
+      border-radius: 5px;
+    }
+    
+    .sidebar .nav-link.active {
+      background-color: #6c757d;
+      color: #ffffff !important; /* Texto blanco para la opción activa, usando !important */
+      border-radius: 5px;
+    }
+    
+    .content {
+      padding: 20px;
+    }
+    
+    h2 {
+      color: #495057;
+    }
+  }
+  
+  /* Estilos adicionales para mejorar la legibilidad */
+  .sidebar {
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave para separar visualmente */
+  }
+  
+  .sidebar .nav-link {
+    margin-bottom: 5px; /* Espacio entre elementos de navegación */
+  }
+  
+  /* Aumentar el contraste para mejor legibilidad */
+  .sidebar .nav-link:not(.active) {
+    font-weight: 500; /* Semi-negrita para opciones no activas */
+  }
+  
+  .sidebar .nav-link.active {
+    font-weight: 700; /* Negrita para la opción activa */
+  }
